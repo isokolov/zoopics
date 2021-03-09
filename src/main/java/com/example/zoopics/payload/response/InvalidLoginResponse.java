@@ -1,4 +1,4 @@
-package com.example.zoopics.payload.reponse;
+package com.example.zoopics.payload.response;
 
 import lombok.Getter;
 

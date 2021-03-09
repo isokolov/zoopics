@@ -1,6 +1,6 @@
 package com.example.zoopics.security;
 
-import com.example.zoopics.payload.reponse.InvalidLoginResponse;
+import com.example.zoopics.payload.response.InvalidLoginResponse;
 import com.google.gson.Gson;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.AuthenticationException;
