@@ -1,7 +1,8 @@
 package com.example.zoopics.validations;
 
-import com.example.demo.annotations.PasswordMatches;
-import com.example.demo.payload.request.SignupRequest;
+import com.example.zoopics.annotations.PasswordMatches;
+import com.example.zoopics.payload.request.SignupRequest;
+import com.example.zoopics.annotations.PasswordMatches;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
