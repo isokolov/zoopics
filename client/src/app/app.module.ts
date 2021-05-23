@@ -10,12 +10,16 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {authInterceptorProviders} from "./helper/auth-interceptor.service";
 import {LoginComponent} from "./auth/login/login.component";
 import {RegisterComponent} from "./auth/register/register.component";
+import {NavigationComponent} from "./layout/navigation/navigation.component";
+import {IndexComponent} from "./layout/index/index.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    NavigationComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
